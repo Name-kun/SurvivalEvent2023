@@ -1,0 +1,9 @@
+name: SurvivalEvent
+version: '${project.version}'
+main: xyz.masa3mc.survivalevent.SurvivalEvent
+api-version: 1.19
+softdepend: [DecentHolograms]
+
+commands:
+  event:
+    usage: /event

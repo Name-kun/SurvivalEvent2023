@@ -1,0 +1,141 @@
+#釣り場のテーブル更新時間(HH:mm:ss)
+time: "00:00:00"
+
+#テーブルのリストにregionが追加されます、ここからいろいろあーだのこーだのする
+tableA:
+  -
+tableB:
+  -
+tableC:
+  -
+tableD:
+  -
+tableE:
+  -
+tableF:
+  -
+#テーブルごとにアイテムが設定されます
+tableAItem:
+  -
+tableBItem:
+  -
+tableCItem:
+  -
+tableDItem:
+  -
+tableEItem:
+  -
+tableFItem:
+  -
+#隠し釣り場効果ごとのregion
+doubleDrop:
+  -
+doubleTimes:
+  -
+upGraded:
+  -
+
+
+#隠し釣り場含む全region
+regions:
+  - fish_maguro
+  - fish_kayaoka
+  - fish_ohashi
+  - fish_lilea
+  - fish_kurumi
+  - fish_sasawan
+  - fish_aominato
+  - fish_pokemura
+  - fish_komugi
+  - fish_hinata
+  - fish_shintsu
+  - fish_tomari
+  - fish_fusazaki
+  - fish_shinonome
+  - fish_maguroike
+  - fish_river
+  - fish_shiranami
+  - fish_genpatsu
+  - fish_hamakiho
+  - fish_grande
+  - fish_kotanigawa
+
+#隠し釣り場
+hidden_regions:
+  - fish_maguroike
+  - fish_river
+  - fish_shiranami
+  - fish_genpatsu
+  - fish_hamakiho
+  - fish_grande
+  - fish_kotanigawa
+
+hologram:
+  X: -381
+  Y: 46
+  Z: -668
+hologramWorld: lobby
+npcWorld: Main
+
+#納品NPCリスト
+npc:
+  1:
+    X: 2434
+    Y: 63
+    Z: 2414
+  2:
+    X: 6094
+    Y: 63
+    Z: 1852
+  3:
+    X: 943
+    Y: 63
+    Z: 614
+  4:
+    X: -11362
+    Y: 70
+    Z: 8370
+  5:
+    X: 1603
+    Y: 81
+    Z: 2908
+  6:
+    X: -1339
+    Y: 66
+    Z: 2884
+  7:
+    X: -2991
+    Y: 67
+    Z: 2980
+  8:
+    X: -1580
+    Y: 68
+    Z: -612
+  9:
+    X: -223
+    Y: 64
+    Z: 637
+  10:
+    X: -1099
+    Y: 71
+    Z: 132
+  11:
+    X: 269
+    Y: 63
+    Z: -1163
+  12:
+    X: 5321
+    Y: 66
+    Z: -7022
+  13:
+    X: 2373
+    Y: 66
+    Z: -1131
+  14:
+    X: -2177
+    Y: 73
+    Z: 978
+
+#npcID
+npcId:
+  -
