@@ -532,9 +532,9 @@ public class SurvivalEventListener implements @Nullable CommandExecutor, @NotNul
 				14000, 16000, 18000, 20230, 22500));
 		for (int i = 25000; i <= 100000; i += 2500)
 			rewPoints.add(i);
-		for (int i = 110000; i <= 500000; i += 10000)
+		for (int i = 110000; i <= 300000; i += 10000)
 			rewPoints.add(i);
-		return point > 500000 ? 0 : rewPoints.ceiling(point) - point;
+		return point >= 300000 ? 0 : rewPoints.ceiling(point) - point;
 	}
 
 	private int fishedAmount(Player p) {
