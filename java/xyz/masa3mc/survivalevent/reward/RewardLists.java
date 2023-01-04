@@ -208,7 +208,8 @@ public class RewardLists {
 		ItemStack item = new ItemStack(Material.SPYGLASS);
 		ItemMeta meta = item.getItemMeta();
 		meta.setDisplayName("§e§lStalker's SpyGlass");
-		meta.setLore(Arrays.asList("これで覗かれると寒気がする。","クリックで半径10m内のMOBに移動速度低下3を10秒付与する。", "※警視庁により検閲済みの為、対人性能は削除されている。"));
+		meta.setLore(
+				Arrays.asList("これで覗かれると寒気がする。", "クリックで半径10m内のMOBに移動速度低下3を10秒付与する。", "※警視庁により検閲済みの為、対人性能は削除されている。"));
 		meta.addEnchant(Enchantment.MENDING, 0, true);
 		meta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
 		item.setItemMeta(meta);
@@ -237,7 +238,7 @@ public class RewardLists {
 		item.setAmount(amount);
 		ItemMeta meta = item.getItemMeta();
 		meta.setDisplayName("§e§l無限スポンジ");
-		meta.setLore(Arrays.asList("製造の過程で偶然速乾性に優れたスポンジ。", "あまりに乾きすぎるので水分補給は忘れずに。","名前の通り無限にスポンジが使える。"));
+		meta.setLore(Arrays.asList("製造の過程で偶然速乾性に優れたスポンジ。", "あまりに乾きすぎるので水分補給は忘れずに。", "名前の通り無限にスポンジが使える。"));
 		meta.addEnchant(Enchantment.MENDING, 0, true);
 		meta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
 		item.setItemMeta(meta);
@@ -265,9 +266,8 @@ public class RewardLists {
 		ItemStack item = new ItemStack(Material.ELYTRA);
 		ItemMeta meta = item.getItemMeta();
 		meta.setDisplayName("§e§lクーラーファン付きエリトラ");
-		meta.setLore(Arrays.asList("工事現場のおっちゃんがよく着ている", "空調服の改造品 v1.1.2-SNAPSHOT", "装備時、炎ダメージを無効化する。"));
-		meta.addEnchant(Enchantment.MENDING, 0, true);
-		meta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
+		meta.setLore(Arrays.asList("工事現場のおっちゃんがよく着ている", "空調服の改造品 v1.1.8-SNAPSHOT", "装備時、炎ダメージを無効化する。"));
+		meta.addEnchant(Enchantment.MENDING, 1, true);
 		item.setItemMeta(meta);
 		NBTItem nbtItem = new NBTItem(item);
 		nbtItem.setBoolean("年末ジャンボ2022", true);
@@ -293,9 +293,9 @@ public class RewardLists {
 		ItemStack item = new ItemStack(Material.NETHERITE_BOOTS);
 		ItemMeta meta = item.getItemMeta();
 		meta.setDisplayName("§6韋駄天の靴");
-		meta.setLore(Arrays.asList("「イベント完走お疲れ様です！」", "--NameKun", "2023/1/1 年末ジャンボ宝釣り--","装備時、移動速度上昇3・跳躍力上昇4が付与される。"));
-		meta.addEnchant(Enchantment.MENDING, 0, true);
-		meta.addItemFlags(ItemFlag.HIDE_ENCHANTS);
+		meta.setLore(
+				Arrays.asList("「イベント完走お疲れ様です！」", "--NameKun", "2023/1/1 年末ジャンボ宝釣り--", "装備時、移動速度上昇3・跳躍力上昇4が付与される。"));
+		meta.addEnchant(Enchantment.MENDING, 1, true);
 		item.setItemMeta(meta);
 		NBTItem nbtItem = new NBTItem(item);
 		nbtItem.setBoolean("年末ジャンボ2022", true);

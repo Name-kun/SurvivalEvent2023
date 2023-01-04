@@ -603,12 +603,12 @@ public class SurvivalEventListener implements @Nullable CommandExecutor, @NotNul
 			return;
 		}
 		NBTItem nitem = new NBTItem(item);
+		if (item.getType().equals(Material.LAVA_BUCKET)) {
+			lavabucket.put(player, nitem.getBoolean("年末ジャンボ2022"));
+		} else if (item.getType().equals(Material.SPONGE)) {
+			sponge.put(player, nitem.getBoolean("年末ジャンボ2022"));
+		}
 		if (nitem.getBoolean("年末ジャンボ2022")) {
-			if (item.getType().equals(Material.LAVA_BUCKET)) {
-				lavabucket.put(player, nitem.getBoolean("年末ジャンボ2022"));
-			} else if (item.getType().equals(Material.SPONGE)) {
-				sponge.put(player, nitem.getBoolean("年末ジャンボ2022"));
-			}
 			if (event.getAction().name().contains("RIGHT")) {
 				if (item.getType().equals(Material.RECOVERY_COMPASS)) {
 					if (player.isSneaking()) {// スニーク時は下へ移動
