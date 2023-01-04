@@ -1,9 +1,17 @@
 name: SurvivalEvent
-version: '${project.version}'
+version: 1.1.6
 main: xyz.masa3mc.survivalevent.SurvivalEvent
+authors:
+- Namekun
+- uz_masa3
 api-version: 1.19
-softdepend: [DecentHolograms]
-
+softdepend:
+- Citizens
+- DecentHolograms
+- NBTAPI
+- WorldEdit
+- WorldGuard
+- WorldGuardEvents
 commands:
   event:
     usage: /event

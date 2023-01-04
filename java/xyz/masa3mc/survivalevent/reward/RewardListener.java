@@ -1,6 +1,7 @@
 package xyz.masa3mc.survivalevent.reward;
 
-import de.tr7zw.nbtapi.NBTItem;
+import static xyz.masa3mc.survivalevent.reward.RewardLists.*;
+
 import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.Material;
@@ -17,7 +18,7 @@ import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 import org.jetbrains.annotations.NotNull;
 
-import static xyz.masa3mc.survivalevent.reward.RewardLists.*;
+import de.tr7zw.nbtapi.NBTItem;
 
 public class RewardListener implements @NotNull Listener {
 
@@ -73,6 +74,7 @@ public class RewardListener implements @NotNull Listener {
         if (e.getItem().equals(liquidMochi())) {
             e.getPlayer().getActivePotionEffects().forEach(potionEffect -> e.getPlayer().removePotionEffect(potionEffect.getType()));
             e.setReplacement(liquidMochi());
+            
         }
     }
 
