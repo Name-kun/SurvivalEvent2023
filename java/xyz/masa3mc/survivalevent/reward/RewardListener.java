@@ -36,7 +36,7 @@ public class RewardListener implements @NotNull Listener {
             }
             if (p.getInventory().getItemInOffHand().isSimilar(shiningMochi())) {
                 p.addPotionEffect(new PotionEffect(PotionEffectType.GLOWING, 60, 0));
-                p.addPotionEffect(new PotionEffect(PotionEffectType.NIGHT_VISION, 200, 0));
+                p.addPotionEffect(new PotionEffect(PotionEffectType.NIGHT_VISION, 300, 0));
             }
         }
     }
